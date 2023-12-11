@@ -1,0 +1,168 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+  
+html,body{
+
+    width: 100%;
+    height: 100%;
+
+
+
+}
+.addcategorydiv{
+    min-height: 100vh;
+    /* background-color: rgba(255, 0, 0, 0.259); */
+    position: relative;
+    width: 100%;
+    background-color:white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.addcategoryheaddiv{
+    height: 100px;
+    width: 100%;
+    background-color: white;
+    border-bottom-left-radius: 50px 100px;
+    border-bottom-right-radius: 50px 100px;
+    display: flex;
+    align-items:flex-end ;
+    justify-content: space-between;
+    
+
+}
+.addcategoryheaddiv h3{
+    padding: 25px;
+    
+
+}
+.addcategoryheaddiv #addCategory,#delCategory{
+   height: 80px;
+   width: 80px;
+   border-radius: 50%;
+    margin-right: 30px;
+    font-size: 15px;
+    background-color: rgba(239, 175, 163, 0.791);
+    border: none;
+}
+.addcategorypagediv{
+    height: calc(100vh - 100px);
+    width:100%;
+    border: 1px solid black;
+    
+    
+}
+.addcategorypagediv .category{
+  
+    margin: 20px;
+    padding: 20px;
+    background-color: #fff;
+    /* height: 100%; */
+    display: inline-block;
+    width: fit-content;
+    /* flex-direction: column; */
+    
+}
+.addcategorypagediv .category .cover{
+    height: 40%;
+    width: fit-content;
+    background-color:rgba(239, 175, 163, 0.791);
+    display: flex;
+    justify-content: space-between;
+   border-top-left-radius: 40px;
+    
+
+}
+.addcategorypagediv .category .cover p{
+    text-align: left;
+    padding-top: 15px;
+    padding-left: 5px;
+    
+}
+
+.btn #add,#delete,#view  {
+    background-color:rgba(239, 175, 163, 0.791);
+    border-radius:50%;
+   width: 50px;
+   height: 50px;
+    font-size: 30px;
+    border: none;
+    color: white;
+    border: 1px dotted black;
+    
+
+}
+.btn{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+ #view:hover  {
+    background-color: white;
+    color: black;
+}
+#delete:hover  {
+    background-color: white;
+       color: black;
+
+}
+#add:hover  {
+    background-color: white;
+       color: black;
+    
+    
+
+}
+#delCategory:hover{
+    color: black;
+    background-color: white;
+     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;;
+}
+
+#addCategory:hover{
+    color: black;
+    background-color: white;
+     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;;
+}
+
+
+.addcategorymanualdiv {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    
+    transform: translate(-50%, -50%);
+    margin: 20px;
+    padding: 20px;
+    background-color: #fff;
+    width: 22.2%;
+    display: none;
+    z-index: 9999; /* Set a higher z-index */
+}
+
+    
+.addcategorypagediv .category .cover .images{
+    /* border: 1px solid black; */
+    width: 300px;
+
+}
+.addcategorypagediv .category .cover .images .btn{
+   position: relative;
+   margin-top: 200px;
+   margin-left: 0px;
+   display: flex;
+   gap: 40px;
+   
+  
+
+}
+.addcategorypagediv .category .cover .addveg{
+    display: flex;
+    flex-direction: column;
+    
+
+}
+
+
+
